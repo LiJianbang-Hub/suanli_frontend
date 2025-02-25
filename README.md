@@ -15,3 +15,14 @@
 
 （6）为避免判题操作造成系统阻塞，采用了异步处理方式。在题目服务中，将用户提交的 ID 发送到 RabbitMQ 消息队列，通过 Direct 交换机将消息转发到判题队列，由判题服务异步消费，实时更新提交状态。
 
+简单的demo演示
+![image](https://github.com/user-attachments/assets/066cce9c-6097-4d37-a2df-e29dd47995c9)
+![image](https://github.com/user-attachments/assets/827f4483-d263-4e86-b5a7-ce4d741fc541)
+![image](https://github.com/user-attachments/assets/da54b950-03d9-48f8-bfc7-e18e11a54ad2)
+![image](https://github.com/user-attachments/assets/adb078ea-5633-497a-875e-6a5bd36460aa)
+![image](https://github.com/user-attachments/assets/0fab82e1-27e4-450e-93c2-3cc250b34503)
+
+
+
+
+
